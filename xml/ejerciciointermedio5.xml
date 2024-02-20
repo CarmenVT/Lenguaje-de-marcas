@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido1 ID="18630">
+        <camarero>
+            <nombre>Abril</nombre>
+            <primer_apellido>Pérez</primer_apellido>
+            <segundo_apellido>Navarro</segundo_apellido>
+        </camarero>
+        <mesa>
+            <numero>4</numero>
+            <ubicacion>terraza</ubicacion>
+        </mesa>
+        <mandado>
+            <comida>
+                <nombre numero="1">Pizza Barbacoa</nombre>
+                <nombre numero="1">Macarrones con tomate</nombre>
+                <nombre numero="1">Pizza Cuatro Quesos</nombre>
+            </comida>
+            <bebida>
+                <nombre numero="2">CocaCola</nombre>
+                <nombre numero="1">Fanta Naranja</nombre>
+            </bebida>
+        </mandado>
+    </pedido1>
+    <pedido2 ID="7274">
+        <camarero>
+            <nombre>Escolástica</nombre>
+            <primer_apellido>Morón</primer_apellido>
+            <segundo_apellido>Gutierrez</segundo_apellido>
+        </camarero>
+        <mesa>
+            <numero>9</numero>
+            <ubicacion>dentro</ubicacion>
+        </mesa>
+        <mandado>
+            <comida>
+                <nombre numero="2">Pizza Boloñesa</nombre>
+                <nombre numero="1">Espaguetis Carbonara</nombre>
+                <nombre numero="1">Pizza Margarita</nombre>
+            </comida>
+            <bebida>
+                <nombre numero="3">Tinto de verano</nombre>
+                <nombre numero="1">Fanta Limón</nombre>
+            </bebida>
+        </mandado>
+    </pedido2>
+</pedidos>

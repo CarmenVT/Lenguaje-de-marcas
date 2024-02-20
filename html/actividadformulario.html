@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Dúrcal</title>
+</head>
+<body>
+    <form method="post" enctype="text/plain">
+        <fieldset>
+            <legend>DATOS DEL PROPIETARIO</legend>
+            Nombre: <input name="nombre" type="text" size="10"/><br/><br/>
+            Primer apellido: <input name="primer apellido" type="text" size="15"/> 
+            Segundo apellido: <input name="segundo apellido" type="text" size="15"/><br/><br/>
+            NIF: <input name="NIF" type="text" size="15" maxlength="9"/>
+            Password: <input name="password" type="password" size="8" maxlength="8"/><br/><br/>
+            Dirección: <input name="direccion" type="text" size="20"/><br/><br/>
+            
+            Provincia: 
+            <select name="provincia">
+                <option value="granada">Granada</option>
+                <option value="huelva">Huelva</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="jaén">Jaén</option>
+                <option value="málaga">Málaga</option>
+                <option value="cádiz">Cádiz</option>
+                <option value="almería">Almería</option>
+                <option value="córdoba">Córdoba</option>
+            </select><br/><br/>
+
+            Sexo: 
+            <input type="radio" value="hombre" name="sexo">Hombre 
+            <input type="radio" value="mujer" name="sexo">Mujer 
+            <input type="radio" value="otro" name="sexo">Otro <br/><br/>
+
+            Medios de pago: 
+            <input type="checkbox" name="permiso de pago" value="efectivo"/>Efectivo 
+            <input type="checkbox" name="permiso de pago" value="targeta" checked="yes"/>Targeta <br/><br/>
+
+            Observaciones: <br/><br/>
+            <textarea name="observaciones" cols="70" rows="10">
+
+            </textarea><br/><br/>
+        </fieldset><br/><br/>
+
+        <fieldset>
+            <legend>DATOS DEL ANIMAL</legend>
+            Nombre de la mascota: <input type="text" name="nombre de la mascota" size="10"><br/><br/>
+            Código del chip: <input type="text" name="codigo" size="15" maxlength="15"><br/><br/>
+            Tipo de animal: 
+            <select name="provindia">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="tortuga">Tortuga</option>
+                <option value="periquito">Periquito</option>
+            </select><br/><br/>
+
+            Sexo: 
+            <input type="radio" name="sexo" value="macho">Macho 
+            <input type="radio" name="sexo" value="hembra">Hembra <br/><br/>
+
+            Vacunas: <br/>
+            <input type="checkbox" name="vacunas" value="rabia">Rabia <br/>
+            <input type="checkbox" name="vacunas" value="leishmaniasis">Leishmaniasis <br/>
+            <input type="checkbox" name="vacunas" value="moquillo">Moquillo <br/>
+            <input type="checkbox" name="vacunas" value="otro">Otro <br/><br/>
+
+            Historial clínico: <br/><br/>
+            <textarea name="historial clinico" cols="80" rows="12">
+
+            </textarea><br/><br/>
+        </fieldset><br/><br/>
+        <input type="reset" value="Borrar"/> 
+        <input type="submit" value="Grabar"/><br><br>
+    </form>
+</body>
+</html>

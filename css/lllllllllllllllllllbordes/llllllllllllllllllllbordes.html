@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+        div{
+            background-color: lightblue;
+            width: 200px;
+            height: 100px;
+            border-top-style: solid;          /* poner tipos de bordes */ /* groove (hundido), dashed (discontínua), dotted (punteado), double (continua doble), ridge(saliente), inset(dentro sólido), outset(fuera sólido) */
+            border-bottom-style: dashed;
+            border-right-style: dotted;        /* se puede poner cada lado de borde de un estilo diferente */
+            border-left-style: double; 
+            border-width: 15px 30px 20px 40px;   /* top, right, bottom, left */     /* ancho del borde */
+            margin: 10px;
+            box-sizing: border-box;
+            border-color: silver;        /* top, right, bottom, left */   /* color del borde */
+            border-radius: 5px;           /* top, right, bottom, left */ /* esquinas redondeadas */
+        }
+        div:hover{                  /* cuando ponemos el ratón encima */
+            border-width: 15px
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .imagen{
+            width: 200px;
+            height: 100px;
+            border-style: solid;
+            border-width: 20px;
+            border-image-source: url(marco.png)              /* poner foto de marco personalizado */
+            border-image-slice 47 fill;                       /* delimitar las esquinas con coordenadas de la imagen */
+            border-image-repeat: repeat; /* round */          /* para hacer que la cadena se repita en todo el marco */ /* es mejor poner "round" */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <img src="favicon.jpg" alt="">
+    <div class="imagen">
+        Lorem ipsum dolor sit amet consectetur adipis
+        icing elit. Ipsa fugiat voluptatibus autem ali
+        quam fugit quidem repellat impedit numquam tota
+        m nesciunt? Amet quas tempora hic quod est rerum
+         ad non veritatis!
+    </div>
+</body>
+</html>

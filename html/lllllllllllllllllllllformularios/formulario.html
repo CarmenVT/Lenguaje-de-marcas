@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="get" enctype="text/plain" action="mailto:direccion@gmail.com">
+        <fieldset>  <!--ENCUADRARLO-->
+            <legend>Datos personales</legend>  <!--PONER TÍTULO-->
+        Nombre:<input name="nombre" type="text" size="10" maxlength="5" value="Paco"/><br><br>
+        Apellidos:<input name="apellidos" size="40"/> <!--RELLENAR CUADRO-->
+        Clave:<input name="clave" type="password" maxlength="15"/><br><br> <!--PONER CLAVE-->
+        Sexo:<br/>
+            <input name="sexo" type="radio" value="hombre"/>Hombre<br/>    <!--SELECCIONAR UNA OPCIÓN-->
+            <input name="sexo" type="radio" value="mujer" checked="yes"/>Mujer<br/>
+<br><br>
+        Permisos de conducir:<br/>
+        <input name="permiso moto" type="checkbox"/>A (Moto)<br/>
+        <input name="permiso coche" type="checkbox"/>B (Coche)<br/>    <!--SELECCIONAR VARIAS OPCIONES-->
+        <input name="permiso autobus" type="checkbox" checked="yes"/>C (Autobús)<br/>
+<br>
+        Provindia:<br/>
+
+            <select name="provicia">
+                <option value="Granada">Granada</option>
+                <option value="Jaén">Jaén</option>        <!--ESCOJER ENTRE LISTAS-->
+                <option value="Cádiz" selected="yes">Cádiz</option>
+            </select><br/><br/>
+        </fieldset><br/><br/>
+        <fieldset>
+            <legend>Datos profesionales</legend>
+            Experiencia laboral:<br/><br/>
+
+            <textarea name="experiencia laboral" cols="150" rows="15">  <!--ESCRIBIR TEXTO GRANDE-->
+
+            </textarea><br/><br/>
+
+            <input type="reset" value="Borrar"/>   <!--BORRAR LO ESCRITO-->
+            <input type="submit" value="Confirmar formulario">   <!--GUARDAR LO ESCRITO-->
+            </fieldset>
+    </form>
+</body>
+</html>

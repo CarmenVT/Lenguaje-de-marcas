@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css"> 
+        *{                 /* para todo */    
+            text-decoration:underline;
+        }
+        .parrafoazul{      /* para varias */                
+            text-align:right;
+            color:blue;
+
+        }
+        p{                 /* para todo de una misma cosa */
+            font-size:20pt;
+        }
+        #parrafoespecial{  /* para una sola cosa */
+            color:red;
+            font-size:28pt;
+        }
+        .grande,.meidano,.pequenio{  /* una cosa en común para varios */
+            color:red;
+        }
+        .grande{
+            font-size:50pt;
+        }
+        .meidano{
+            font-size:30pt;
+        }
+        .pequenio{
+            font-size:10pt;
+        }
+        table td > a{              /* a es descendiente directo de td, que es descendiente de table */
+            color:brown;
+            font-size:16pt;
+        }
+
+        [id^="Alumno"]{             /* todas las etiquetas que empiezan por alumno */
+            color:green;
+        }
+        h1,h2,h3,h4,h5,h6,.cabeceracentrada{
+            text-align: center;                 /* todas esas etiquetas son de la clase .cabeceracentrada*/
+        }
+
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<body>
+    <h1 class="parrafoazul">TÍTULO</h1>
+    <p id="parrafoespecial">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, suscipit pariatur, tenetur animi natus porro
+         harum sed ipsum voluptates unde aliquid delectus veritatis ducimus praesentium alias temporibus eos quas! Eos.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, magni, fuga eligendi fugit repellat temp
+         ora quae in atque enim excepturi, ab veritatis ipsum iure! Omnis consequuntur ducimus incidunt odio ut?
+         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, suscipit pariatur, tenetur animi natus porro
+         harum sed ipsum voluptates unde aliquid delectus veritatis ducimus praesentium alias temporibus eos quas! Eos.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, magni, fuga eligendi fugit repellat temp
+         ora quae in atque enim excepturi, ab veritatis ipsum iure! Omnis consequuntur ducimus incidunt odio ut?
+    </p>
+    <p class="parrafoazul">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, suscipit pariatur, tenetur animi natus porro
+         harum sed ipsum voluptates unde aliquid delectus veritatis ducimus praesentium alias temporibus eos quas! Eos.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, magni, fuga eligendi fugit repellat temp
+         ora quae in atque enim excepturi, ab veritatis ipsum iure! Omnis consequuntur ducimus incidunt odio ut?
+         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, suscipit pariatur, tenetur animi natus porro
+         harum sed ipsum voluptates unde aliquid delectus veritatis ducimus praesentium alias temporibus eos quas! Eos.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, magni, fuga eligendi fugit repellat temp
+         ora quae in atque enim excepturi, ab veritatis ipsum iure! Omnis consequuntur ducimus incidunt odio ut?
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, suscipit pariatur, tenetur animi natus porro
+         harum sed ipsum voluptates unde aliquid delectus veritatis ducimus praesentium alias temporibus eos quas! Eos.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, magni, fuga eligendi fugit repellat temp
+         ora quae in atque enim excepturi, ab veritatis ipsum iure! Omnis consequuntur ducimus incidunt odio ut?
+         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, suscipit pariatur, tenetur animi natus porro
+         harum sed ipsum voluptates unde aliquid delectus veritatis ducimus praesentium alias temporibus eos quas! Eos.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, magni, fuga eligendi fugit repellat temp
+         ora quae in atque enim excepturi, ab veritatis ipsum iure! Omnis consequuntur ducimus incidunt odio ut?
+    </p>
+
+    <h1 class="grande">TÍTUTLO</h1>
+    <h2 class="mediano">Subtítulo</h2>
+    <p class="pequenio">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Harum, hic? Incidunt fugiat ex, mollitia eveniet ill
+        um totam, sit maxime amet cupiditate, ipsa commodi. E
+        veniet accusamus officia sed perspiciatis rerum quam!
+    </p>
+    <table border="1px">
+        <tr>
+            <td>
+                <a href="#">Ejemplo de texto</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" style="color:orange">Ejemplo de texto</a>  <!-- aquí ya no influye pq le asignamos color desde aquí-->
+            </td>
+        </tr>
+    </table>
+    <a href="#">Enlace fuera de la tabla</a>  <!-- aquí no influye pq está fuera de la tabla-->
+
+    <p id="Alumno1">José García Pérez</p>            
+    <p id="Alumno2">María Torres Jiménez</p>         <!-- hay que poner el id en las etiquetas-->
+    <p id="Alumno3">Ana Rodríguez Espinosa</p>
+</body>
+</html>

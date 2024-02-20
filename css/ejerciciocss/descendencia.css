@@ -1,0 +1,13 @@
+div  p > .enlacesdestacados{
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+.tablaespecial p{
+    text-align: center;
+    color: olive;
+}
+div div > img{
+    height: 100px;
+    width: 100px;
+}

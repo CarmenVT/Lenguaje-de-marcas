@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+        div.arriba,div.central,div.abajo{
+            width: 100vw;
+            min-width: 800px;
+            position: absolute;
+        }
+        div.arriba,div.abajo{
+            background-color: blue;
+            height: 200px;
+        }
+        div.arriba{
+            top: 0;
+            
+        }
+        div.abajo{
+            bottom: 0;
+        }
+        div.central{
+            top: 200px;
+            bottom: 200px;
+            background-color: white;
+        }
+        div.izq,div.der{
+            background-color: red;
+            width: 200px;
+            height: 100%;
+        }
+        div.izq{
+            float: left;
+
+        }
+        div.der{
+            float: right;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="arriba"></div>
+    <div class="central">
+        <div class="izq"></div>
+        <div class="der"></div>
+    </div>
+    <div class="abajo"></div>
+</body>
+</html>

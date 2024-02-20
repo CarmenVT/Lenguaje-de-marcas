@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<futbol>
+    <equipo1>
+       <nombre>Real Madrid</nombre> 
+       <ciudad>Madrid</ciudad>
+       <entrenador>Carlo Ancelotti</entrenador>
+       <jugadores>
+        <jugador1 posicion="Delantero">
+            <nombre>Joselu</nombre>
+            <nacionalidad>Español</nacionalidad>
+        </jugador1>
+        <jugador2 posicion="Defensa">
+            <nombre>Carvajal</nombre>
+            <nacionalidad>Español</nacionalidad>
+        </jugador2>
+       </jugadores>
+    </equipo1>
+    <equipo2>
+        <nombre>Fútbol Club Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador>Xavi Hernández</entrenador>
+        <jugadores>
+            <jugador1 posicion="Delantero">
+                <nombre>Robert Lewandowski</nombre>
+                <nacionalidad>Polaco</nacionalidad>
+            </jugador1>
+            <jugador2 posicion="Defensa">
+                <nombre>Iñigo Martínez</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador2>
+        </jugadores>
+
+    </equipo2>
+</futbol> <!-- holi :)-->

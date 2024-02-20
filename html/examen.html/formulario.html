@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulario</title>
+</head>
+<body bgcolor="6600ff">
+    <h1 align="center">Formulario de Alta</h1>
+        <form action="mailto:examen@iesalandalus.es" method="get" enctype="text/plain">
+            <fieldset>
+                <legend>Datos pesonales</legend>
+                Nombre: <input type="text" name="nombre" size="10" maxlength="20"/>
+                Apellidos: <input type="text" size="40" maxlength="50"/><br/>
+                Contraseña: <input name=clave type="password" size="6"/><br>
+                Estado civil: <br/>
+                Casado <input type="radio" name="estadocivil" value="casado"><br/>
+                Soltero <input type="radio" name="estadocivil" value="soltero" checked="yes">
+            </fieldset>
+            <fieldset>
+                <legend>Datos profesionales</legend>
+                Trabajador en activo: <input type="checkbox" name="trabajador en activo"><br/>
+                Tipo de cualificación: 
+                <select name="cualificación">
+                    <option value="Graduado">Graduado</option>
+                    <option value="Diplomado">Diplomado</option>
+                    <option selected="yes" value="Licenciado">Licenciado</option>
+                </select><br/>
+                Observaciones: <br/>
+                <textarea name="Observaciones" cols="20" rows="5" maxlength="30"></textarea>
+            </fieldset><br/><br/>
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="Borrar formulario">
+        </form>
+    
+</body>
+</html>

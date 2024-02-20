@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viviendas>
+    <vivienda ID="178">
+        <direccion></direccion>
+        <num_hab>Calle alegría 3</num_hab>
+        <caracteristicas>
+            <calefaccion>SI</calefaccion>
+            <piscina>SI</piscina>
+            <aire_acond>NO</aire_acond>
+            <ascensor>SI</ascensor>
+        </caracteristicas>
+        <comprador DNI="75322110" xmlns="vivienda/comprador">
+            <nombre>Tomás Morales</nombre>
+            <direccion>Calle romero 1</direccion>
+            <email>tmorales@gmail.com</email>
+        </comprador>
+        <vendedor DNI="72134393" xmlns="vivienda/vendedor">
+            <nombre>María Torres</nombre>
+            <direccion>Avd/Luna 7</direccion>
+            <email>mtorres@gmail.com</email>
+        </vendedor>
+        <precio>175000euros</precio>
+    </vivienda>
+    <vivienda ID="913">
+        <direccion>Avd/Sol 2 1B</direccion>
+        <num_hab>3</num_hab>
+        <caracteristicas>
+            <calefaccion>SI</calefaccion>
+            <piscina>NO</piscina>
+            <aire_acond>NO</aire_acond>
+            <ascensor>SI</ascensor>
+        </caracteristicas>
+        <comprador DNI="245699833" xmlns="vivienda/comprador">
+            <nombre>Jaime Barneo</nombre>
+            <direccion>Calle Tomillo 8</direccion>
+            <email>jbarneo@gmail.com</email>
+        </comprador>
+        <vendedor DNI="458934211" xmlns="vivienda/vendedor">
+            <nombre>Ana García</nombre>
+            <direccion>Paseo Mar 11</direccion>
+            <email>agarcia@gmail.com</email>
+        </vendedor>
+        <precio>218000euros</precio>
+    </vivienda>
+</viviendas>

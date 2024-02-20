@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <cliente1 xmlns="banco/cliente">
+        <NIF>
+            <DNI>67336841</DNI>
+            <letra>L</letra>
+        </NIF>
+        <nombre>
+            <primer_nombre>Juan</primer_nombre>
+            <apellido1>Gómez</apellido1>
+            <apellido2>Carrillo</apellido2>
+        </nombre>
+        <fecha>
+            <dia>6</dia>
+            <mes>11</mes>
+            <anio>1992</anio>
+        </fecha>
+        <cuenta>juangomez@gmail.com</cuenta>
+        <profesion>Afilador</profesion>
+        <cuenta xmlns="banco/cuenta_bancaria">
+            <IBAN>4664</IBAN>
+            <capital>90,4€</capital>
+            <sucursal xmlns="banco/sucursal">
+                <pais>España</pais>
+                <capital>Madrid</capital>
+                <provincia>Madrid</provincia>
+                <ciudad>Madrid</ciudad>
+            </sucursal>
+            <fecha>
+                <dia>6</dia>
+                <mes>3</mes>
+                <anio>2012</anio>
+            </fecha>
+        </cuenta>
+    </cliente1>
+    <cliente2 xmlns="banco/cliente">
+        <NIF>
+            <DNI>78562533</DNI>
+            <letra>M</letra>
+        </NIF>
+        <nombre>
+            <primer_nombre>María</primer_nombre>
+            <apellido1>Pérez</apellido1>
+            <apellido2>Rodríguez</apellido2>
+        </nombre>
+        <fecha>
+            <dia>7</dia>
+            <mes>12</mes>
+            <anio>1985</anio>
+        </fecha>
+        <cuenta>mariaperez@gmail.com</cuenta>
+        <profesion>profesora</profesion>
+        <cuenta xmlns="banco/cuenta_bancaria">
+            <IBAN>4896</IBAN>
+            <capital>47938.49€</capital>
+            <sucursal xmlns="banco/sucursal">
+                <pais>España</pais>
+                <capital>Madrid</capital>
+                <provincia>Madrid</provincia>
+                <ciudad>Madrid</ciudad>
+            </sucursal>
+            <fecha>
+                <dia>25</dia>
+                <mes>3</mes>
+                <anio>2007</anio>
+            </fecha>
+        </cuenta>
+    </cliente2>
+    <cliente3 xmlns="banco/cliente">
+        <NIF>
+            <DNI>84992264</DNI>
+            <letra>L</letra>
+        </NIF>
+        <nombre>
+            <primer_nombre>Javier</primer_nombre>
+            <apellido1>Rosales</apellido1>
+            <apellido2>Morón</apellido2>
+        </nombre>
+        <fecha>
+            <dia>12</dia>
+            <mes>5</mes>
+            <anio>1974</anio>
+        </fecha>
+        <cuenta>javierrosales@gmail.com</cuenta>
+        <profesion>Enfermero</profesion>
+        <cuenta xmlns="banco/cuenta_bancaria">
+            <IBAN>89089</IBAN>
+            <capital>4479372,02€</capital>
+            <sucursal xmlns="banco/sucursal">
+                <pais>España</pais>
+                <capital>Madrid</capital>
+                <provincia>Madrid</provincia>
+                <ciudad>Madrid</ciudad>
+            </sucursal>
+            <fecha>
+                <dia>6</dia>
+                <mes>6</mes>
+                <anio>1996</anio>
+            </fecha>
+        </cuenta>
+    </cliente3>
+</clientes>

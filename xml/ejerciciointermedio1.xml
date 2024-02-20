@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sensores>
+    <sensor1 humedad="70">
+        <id_del_sensor>100</id_del_sensor>
+        <ubicacion>Sala juntas</ubicacion>
+        <temperatura>
+            <actual>20</actual>
+            <minima>18</minima>
+            <maxima>23</maxima>
+        </temperatura>
+    </sensor1>
+    <sensor2 humedad="50">
+        <id_del_sensor>101</id_del_sensor>
+        <ubicacion>Recibidor</ubicacion>
+        <temperatura>
+            <actual>22</actual>
+            <minima>17</minima>
+            <maxima>24</maxima>
+        </temperatura>
+    </sensor2>
+    <sensor3 humedad="45">
+        <id_del_sensor>102</id_del_sensor>
+        <ubicacion>Taller</ubicacion>
+        <temperatura>
+            <actual>24</actual>
+            <minima>20</minima>
+            <maxima>27</maxima>
+        </temperatura>
+    </sensor3>
+    <sensor4 humedad="30">
+        <id_del_sensor>103</id_del_sensor>
+        <ubicacion>Despachos</ubicacion>
+        <temperatura>
+            <actual>21</actual>
+            <minima>20</minima>
+            <maxima>23</maxima>
+        </temperatura>
+    </sensor4>
+    <sensor5 humedad="40">
+        <id_del_sensor>104</id_del_sensor>
+        <ubicacion>Ventanillas</ubicacion>
+        <temperatura>
+            <actual>22</actual>
+            <minima>19</minima>
+            <maxima>24</maxima>
+        </temperatura>
+    </sensor5>
+</sensores>

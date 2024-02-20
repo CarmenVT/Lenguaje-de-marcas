@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interfaces>
+    <interfaz1 ID="81">
+        <nombre>Ventana Suma</nombre>
+        <dimensiones>
+            <ancho unidad="px">800</ancho>
+            <alto unidad="px">600</alto>
+        </dimensiones>
+        <numero_botones>4</numero_botones>
+        <funcion_PHP>Suma()</funcion_PHP>
+    </interfaz1>
+    <interfaz2 ID="76">
+        <nombre>Ventana Resta</nombre>
+        <dimensiones>
+            <ancho unidad="%">50</ancho>
+            <alto unidad="%">30</alto>
+        </dimensiones>
+        <numero_botones>2</numero_botones>
+        <funcion_PHP>Resta()</funcion_PHP>
+    </interfaz2>
+    <interfaz3 ID="72">
+        <nombre>Ventana Multip</nombre>
+        <dimensiones>
+            <ancho unidad="px">1080</ancho>
+            <alto unidad="px">720</alto>
+        </dimensiones>
+        <numero_botones>1</numero_botones>
+        <funcion_PHP>Multiplica()</funcion_PHP>
+    </interfaz3>
+    <interfaz4 ID="93">
+        <nombre>Ventana División</nombre>
+        <dimensiones>
+            <ancho unidad="px">1080</ancho>
+            <alto unidad="px">720</alto>
+        </dimensiones>
+        <numero_botones>1</numero_botones>
+        <funcion_PHP>Divide()</funcion_PHP>
+    </interfaz4>
+</interfaces>

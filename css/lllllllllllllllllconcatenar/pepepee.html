@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+        img{
+            width: 120px;
+            height: 120px;
+        }
+        div{
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+        }
+        .rojo{
+            background-color: red;
+            display: none;
+        }
+        .azul{
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            /*visibility: hidden;   */         /*el elemento existe pero es invisible*/
+        }
+        .verde{
+            background-color: green;     
+        }
+        .rojo:hover + .azul{             
+            display: inline-block;
+        }
+        .capaconborde{
+            width: 300px;
+            height: 300px;
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <img src="luna.jpg" alt="">
+    <img src="sol.jpg" alt="">
+
+    <p>párrafo 1</p>
+    <p>párraafo 2</p>
+
+    <div class="rojo"></div>
+    <div class="azul"></div>
+    <div class="verde"></div>
+</body>
+</html>

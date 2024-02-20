@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno xmls="autoescuela/alumno">
+        <codigo>123</codigo>
+        <nombre_completo>Carmen Villalobos Toril</nombre_completo>
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <anio>2023</anio>
+        </fecha>
+        <email>papaparacarmen@gmail.com</email>
+        <telefono>645536661</telefono>
+        <matricula xmlns="autoescuela/matricula">
+            <codigo>678</codigo>
+            <fecha>
+                <dia>23</dia>
+                <mes>7</mes>
+                <anio>2023</anio>
+            </fecha>
+            <pago>100€</pago>
+        </matricula>
+        <clases xmlns="autoescuela/clases">
+            <clase1>
+                <fecha>
+                    <dia>10</dia>
+                    <mes>7</mes>
+                    <anio>2023</anio>
+                </fecha>
+                <hora>17:15</hora>
+                <profesor>
+                    <nombre>Gabriel Martínez Pérez</nombre>
+                    <codigo>987</codigo>
+                </profesor>
+                <coche plazas="2">
+                    <matricula>HYU870</matricula>
+                </coche>
+            </clase1>
+            <clase2>
+                <fecha>
+                    <dia>27</dia>
+                    <mes>7</mes>
+                    <anio>2023</anio>
+                </fecha>
+                <hora>17:15</hora>
+                <profesor>
+                    <nombre>Teresa Torres Castillo</nombre>
+                    <codigo>405</codigo>
+                </profesor>
+                <coche plazas="4">
+                    <matricula>ENP519</matricula>
+                </coche>
+            </clase2>
+            <clase3>
+                <fecha>
+                    <dia>9</dia>
+                    <mes>8</mes>
+                    <anio>2023</anio>
+                </fecha>
+                <hora>18:00</hora>
+                <profesor>
+                    <nombre>Marcos Galdeano Gómez</nombre>
+                    <codigo>773</codigo>
+                </profesor>
+                <coche plazas="2">
+                    <matricula>KFT367</matricula>
+                </coche>
+            </clase3>
+    </clases>
+    </alumno>
+</alumnos>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuegos>
+    <juego1 codigo_de_barras="1008">
+        <titulo>Call of Duty</titulo>
+        <genero>Acción</genero>
+        <edad>18</edad>
+        <precio tipo_de_moneda="euro">31</precio>
+        <unidades_disponibles>23</unidades_disponibles>
+        <tiendas_disponibles>
+            <sitio1>Granada</sitio1>
+            <sitio2>Jaén</sitio2>
+            <sitio3>Sevilla</sitio3>
+        </tiendas_disponibles>
+    </juego1>
+    <juego2 codigo_de_barras="1013">
+        <titulo>Mario Kart 2</titulo>
+        <genero>Arcade</genero>
+        <edad>0</edad>
+        <precio tipo_de_moneda="dolar">28</precio>
+        <unidades_disponibles>34</unidades_disponibles>
+        <tiendas_disponibles>
+            <sitio>Málaga</sitio>
+        </tiendas_disponibles>
+    </juego2>
+    <juego3 codigo_de_barras="1026">
+        <titulo>Sonic 3</titulo>
+        <genero>Arcade</genero>
+        <edad>7</edad>
+        <precio tipo_de_moneda="euro">35</precio>
+        <unidades_disponibles>7</unidades_disponibles>
+        <tiendas_disponibles>
+            <sitio>Granada</sitio>
+        </tiendas_disponibles>
+    </juego3>
+    <juego4 codigo_de_barras="1081">
+        <titulo>FIFA 2023</titulo>
+        <genero>Deportes</genero>
+        <edad>12</edad>
+        <precio tipo_de_moneda="dolar">43</precio>
+        <unidades_disponibles>18</unidades_disponibles>
+        <tiendas_disponibles>
+            <sitio1>Jaén</sitio1>
+            <sitio2>Sevilla</sitio2>
+        </tiendas_disponibles>
+    </juego4>
+    <juego5 codigo_de_barras="1072">
+        <titulo>Minecraft</titulo>
+        <genero>Estrategia</genero>
+        <edad>7</edad>
+        <precio tipo_de_moneda="euro">29</precio>
+        <unidades_disponibles>32</unidades_disponibles>
+        <tiendas_disponibles>
+            <sito>Málaga</sito>
+        </tiendas_disponibles>
+    </juego5>
+    <juego6 codigo_de_barras="1099">
+        <titulo>UFC 4</titulo>
+        <genero>Deportes</genero>
+        <edad>18</edad>
+        <precio tipo_de_moneda="dolar">35</precio>
+        <unidades_disponibles>33</unidades_disponibles>
+        <tiendas_disponibles>
+            <sitio>Sevilla</sitio>
+        </tiendas_disponibles>
+    </juego6>
+    <juego7 codigo_de_barras="2017">
+        <titulo>Super Mario 4</titulo>
+        <genero>Arcade</genero>
+        <edad>7</edad>
+        <precio tipo_de_moneda="euro">41</precio>
+        <unidades_disponibles>21</unidades_disponibles>
+        <tiendas_disponibles>
+            <sitio1>Granada</sitio1>
+            <sitio2>Sevilla</sitio2>
+        </tiendas_disponibles>
+    </juego7>
+</videojuegos>

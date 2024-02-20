@@ -1,0 +1,35 @@
+.supergrande{
+    font-size: 50mm;
+}
+.grande{
+    font-size: 40mm;
+}
+.mediano{
+    font-size: 30mm;
+}
+.reducido{
+    font-size: 20mm;
+}
+.superreducido{
+    font-size: 10mm;
+}
+.A3{
+    width: 29.7cm;
+    height: 42cm;
+    background-color: aqua;
+}
+.A4{
+    width: 21cm;
+    height: 29.7cm;
+    background-color: aquamarine;
+}
+.mitad_mediano{
+    width: 50vw;
+    height: 50vh;
+}
+li a{
+    font-size: 0.5em;
+}
+ul{
+    list-style: square;
+}

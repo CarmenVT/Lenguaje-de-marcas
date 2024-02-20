@@ -1,0 +1,9 @@
+.trescuartos{
+    width: calc(100vw *3/4);
+    height: 60vh;
+    background-color: black;
+}
+#imagen_estirada{
+    width: calc(100vw - 80px);
+    height: calc(100vh * 6/8);
+}

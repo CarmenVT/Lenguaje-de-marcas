@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+		body{
+			margin: 0;
+		}
+		div{
+			width: 250px;
+			height: 150px;
+			border-style: solid; /* dashed double groove */
+			border-width: 20px;
+			border-image-source: url("cadena.png");       /* poner la imagen como marco una vez recortado */
+			border-image-slice: 116 89 119;                  /* delimitar las esquinas con coordenadas de la imagen */
+			border-image-repeat: round;                       /* para hacer que la cadena se repita en todo el marco */
+		 /* border-radius: con porcentaje; */                  /* esquinas redondas */
+		}
+	</style>
+    <title>Ejercicio bici</title>
+</head>
+<body>
+    <div>
+		<img src="bicicleta.png"/>
+	</div>
+</body>
+</html>

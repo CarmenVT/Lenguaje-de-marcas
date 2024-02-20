@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+        .rojo{
+            background-color: red;
+            top:30px;
+            left:30px;
+        }
+        .verde{
+            background-color: green;
+            top: 60px;
+            left: 60px;
+        }
+        .azul{
+            background-color: blue;
+        }
+        div:hover{
+            z-index: 5;       /* posicionar la capa encima de otras capas */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="rojo"></div>
+    <div class="verde"></div>
+    <div class="azul"></div>
+    <div class="verde"></div>
+</body>
+</html>

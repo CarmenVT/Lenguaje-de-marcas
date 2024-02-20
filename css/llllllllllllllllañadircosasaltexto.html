@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+        p.letracapital::first-letter{    /*sólo a la primera letra*/
+            font-size: 3em;
+            float: left;
+        }
+        p.primeraletraamarilla::selection{    /*al seleccionar*/
+            background-color: yellow;
+            text-decoration: underline;
+        }
+        p::before{               /*se añade antes*/
+            content:"--";
+        }
+        p::after{                 /*se añade después*/
+            content:"*/";
+        }
+        .coment:hover::before{            /*cuando lo pones el ratón encima se añade antes*/
+            content:url("flecha.png");       /*el conternido es una imagen que quieras*/
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <p class="letracapital">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil dolorem soluta fugit vitae similique blanditiis repudiandae repellendus quia. Iusto quidem corrupti voluptas aliquid consequuntur, enim repellendus deserunt recusandae assumenda.
+    </p>
+
+    <p class="primeraletraamarilla">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, corporis quaerat iste qui totam molestias exercitationem amet officia voluptatibus nemo explicabo consectetur animi blanditiis aut obcaecati beatae quae maiores! Dignissimos.
+    </p>
+
+    <p class="coment">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, fugit laudantium sed non earum architecto, mollitia, veniam quia voluptates eos doloribus odit minus molestiae at. Quos unde maxime aliquam quod.
+    </p>
+</body>
+</html>

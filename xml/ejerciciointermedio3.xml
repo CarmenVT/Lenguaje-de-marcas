@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ordenadores>
+    <ordenador1 Wifi="No">
+        <numero_PC>PC01</numero_PC>
+        <porcesador>Intel i7</porcesador>
+        <modulos_RAM>
+            <modulo1>1GB</modulo1>
+            <modulo2>1GB</modulo2>
+            <modulo3>1GB</modulo3>
+            <modulo4>1GB</modulo4>
+        </modulos_RAM>
+        <disco_duro tipo_de_disco="SSD">128GB</disco_duro>
+        <sist_operativo>Windows 11</sist_operativo>
+    </ordenador1>
+    <ordenador2 Wifi="Si">
+        <numero_PC>PC02</numero_PC>
+        <porcesador>Intel i3</porcesador>
+        <modulos_RAM>
+            <modulo>2GB</modulo>
+        </modulos_RAM>
+        <disco_duro tipo_de_disco="HD">1TB</disco_duro>
+        <sist_operativo>Ubuntu 20</sist_operativo>
+    </ordenador2>
+    <ordenador3 Wifi="Si">
+        <numero_PC>PC03</numero_PC>
+        <porcesador>Intel i3</porcesador>
+        <modulos_RAM>
+            <modulo>4GB</modulo>
+        </modulos_RAM>
+        <disco_duro tipo_de_disco="HD">2TB</disco_duro>
+        <sist_operativo>Ubuntu 22</sist_operativo>
+    </ordenador3>
+    <ordenador4 Wifi="Si">
+        <numero_PC>PC04</numero_PC>
+        <porcesador>Intel i7</porcesador>
+        <modulos_RAM>
+            <modulo1>2GB</modulo1>
+            <modulo2>2GB</modulo2>
+        </modulos_RAM>
+        <disco_duro tipo_de_disco="SSD">256GB</disco_duro>
+        <sist_operativo>Windows 11</sist_operativo>
+    </ordenador4>
+    <ordenador5 Wifi="Si">
+        <numero_PC>PC05</numero_PC>
+        <porcesador>Intel i5</porcesador>
+        <modulos_RAM>
+            <modulo>8GB</modulo>
+        </modulos_RAM>
+        <disco_duro tipo_de_disco="SSD">512GB</disco_duro>
+        <sist_operativo>Windows 10</sist_operativo>
+    </ordenador5>
+    <ordenador6 Wifi="No">
+        <numero_PC>PC06</numero_PC>
+        <porcesador>Intel i3</porcesador>
+        <modulos_RAM>
+            <modulo1>4GB</modulo1>
+            <modulo2>4GB</modulo2>
+        </modulos_RAM>
+        <disco_duro tipo_de_disco="HD">1TB GB</disco_duro>
+        <sist_operativo>Windows 10</sist_operativo>
+    </ordenador6>
+    <ordenador7 Wifi="Si">
+        <numero_PC>PC07</numero_PC>
+        <porcesador>Intel i5</porcesador>
+        <modulos_RAM>
+            <modulo>2GB</modulo>
+        </modulos_RAM>
+        <disco_duro tipo_de_disco="HD">256GB</disco_duro>
+        <sist_operativo>Ubuntu 20</sist_operativo>
+    </ordenador7>
+</ordenadores>

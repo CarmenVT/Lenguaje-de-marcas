@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <cliente xmlns="amazon/cliente">
+        <nombre>Arturo Pérez Delgado</nombre>
+        <direccion>Calle Las Tres Cruces</direccion>
+        <telefono>684330623</telefono>
+        <pedidos xmlns="amazon/pedido" ID="748">
+            <pedido>
+                <nombre>iPhone 10</nombre>
+                <direccion>Calle Las Tres Cruces</direccion>
+                <cantidad>1</cantidad>
+                <importe>599€</importe>
+            </pedido>
+            <pedido>
+                <nombre>Cuchillo</nombre>
+                <direccion>Calle Las Tres Cruces</direccion>
+                <cantidad>2</cantidad>
+                <importe>20€</importe>
+            </pedido>
+        </pedidos>
+    </cliente>
+</clientes>
